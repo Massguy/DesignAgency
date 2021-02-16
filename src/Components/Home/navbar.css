@@ -1,0 +1,145 @@
+.navbar {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-title {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+.navLinks {
+  background-color: #0c0c0b;
+  position: absolute;
+  top: 80%;
+  color: white;
+  width: 100%;
+  text-align: left;
+  height: 500%;
+  margin-top: 10px;
+  z-index: 9999999;
+}
+.navHide {
+  display: none;
+}
+.navLinks ul {
+  list-style-type: none;
+
+  margin-left: -9%;
+}
+.navLinks ul li {
+  text-align: left;
+  margin-top: 35px;
+}
+
+.btn {
+  position: absolute;
+  right: 7%;
+  height: 10px;
+}
+@media screen and (max-width: 801px) and (min-width: 520px) {
+  .container {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+  }
+  .navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 95%;
+    margin-left: 5%;
+    overflow: hidden;
+  }
+
+  .brand-title {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    font-family: "Jost", sans-serif;
+  }
+
+  .navHide {
+    height: 100%;
+
+    width: 70%;
+    overflow: hidden;
+    display: block;
+  }
+
+  .navHide ul {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 5%;
+    padding: 0;
+  }
+
+  .navHide li {
+    list-style: none;
+    font-family: "Jost", sans-serif;
+    margin: 1rem 1.5rem 0 1.5rem;
+  }
+
+  .navHide li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+  }
+
+  .btn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 802px) {
+  nav {
+    max-width: 1330px;
+    margin: auto;
+  }
+  .container {
+    max-width: 85%;
+    margin: 0 6.5% 0 8.5%;
+  }
+  .navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 85%;
+    margin: 0 6.5% 0 8.5%;
+    height: 100px;
+
+    width: 100%;
+  }
+
+  .brand-title {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    font-family: "Jost", sans-serif;
+  }
+
+  .navHide {
+    height: 100%;
+    display: block;
+  }
+
+  .navHide ul {
+    display: flex;
+    margin-top: 1.5rem;
+    padding: 0;
+  }
+
+  .navHide li {
+    list-style: none;
+    font-family: "Jost", sans-serif;
+    margin: 1rem 1.5rem 0 1.5rem;
+  }
+
+  .btn {
+    display: none;
+  }
+}

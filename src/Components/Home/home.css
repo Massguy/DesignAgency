@@ -1,0 +1,656 @@
+@media screen and (max-width: 520px) {
+  .homeTitleContainer {
+    background-color: #e7816b;
+    height: 703px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .homeText {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    font-family: "Jost", sans-serif;
+  }
+
+  .homeText h3 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+  }
+  .homeText h5 {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1.5px;
+  }
+
+  .homeTitleContainer img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    min-height: 573px;
+    min-width: 284px;
+    top: 372px;
+    right: -10px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .homeButton {
+    justify-content: center;
+    display: flex;
+  }
+  .homeButton button {
+    padding: 15px;
+    background-color: #f1f3f5;
+    border: none;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 1.5px;
+    min-width: 152px;
+    font-size: 15px;
+  }
+  .homeThreeGrid {
+    height: 700px;
+    background-color: white;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 60%; */
+  }
+
+  .homeThreeGrid img {
+    margin-left: 2px;
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    filter: brightness(40%);
+  }
+  .imgWrap {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .imgWrap .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 20px;
+    z-index: 9999;
+    text-decoration: none;
+  }
+  .imgWrap .centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 4.5px;
+    font-size: 12px;
+    z-index: 9999;
+    text-decoration: none;
+  }
+  .imgWrap2 {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .imgWrap2 .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 20px;
+    z-index: 9999;
+    text-decoration: none;
+  }
+  .imgWrap2 .centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 4.5px;
+    font-size: 12px;
+    z-index: 9999;
+    text-decoration: none;
+  }
+  .imgWrap3 {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .imgWrap3 .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 20px;
+    z-index: 9999;
+    text-decoration: none;
+  }
+  .imgWrap3 .centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 4.5px;
+    font-size: 12px;
+    z-index: 9999;
+    text-decoration: none;
+  }
+  .homeCartoonSection {
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    /* margin-top: 165px; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 80%;
+
+    overflow: hidden;
+  }
+  .cartoonWrap {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+  }
+  .cartoonWrap img {
+    border-radius: 50%;
+    background-image: linear-gradient(#5d020200, #5d02021c);
+    width: 202px;
+    height: 202px;
+  }
+  .cartoonWrap h1 {
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+  .cartoonWrap p {
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    margin: 5%;
+  }
+}
+
+@media screen and (max-width: 801px) and (min-width: 520px) {
+  .container {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .homeTitleContainer {
+    background-color: #e7816b;
+    height: 703px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+    border-radius: 9px;
+  }
+
+  .homeText {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    font-family: "Jost", sans-serif;
+  }
+
+  .homeText h3 {
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    margin: 2% 20% 0 20%;
+  }
+  .homeText h5 {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1.5px;
+    margin: 4% 20% 4% 20%;
+  }
+
+  .homeTitleContainer img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    /* min-height: 573px; */
+    /* min-width: 284px; */
+    top: 45%;
+    overflow: hidden;
+  }
+  .homeButton {
+    justify-content: center;
+    display: flex;
+  }
+  .homeButton button {
+    padding: 15px;
+    background-color: #f1f3f5;
+    border: none;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 1.5px;
+    min-width: 152px;
+    font-size: 15px;
+  }
+
+  .homeThreeGrid {
+    height: 100%;
+
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15%;
+    width: 100%;
+  }
+
+  .homeThreeGrid img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    filter: brightness(40%);
+  }
+  .imgWrap {
+    position: relative;
+    text-align: center;
+    display: flex;
+    white-space: nowrap;
+    margin-top: 5%;
+    width: 100%;
+  }
+  .imgWrap .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 40px;
+    text-decoration: none;
+    z-index: 9999;
+  }
+  .imgWrap .centered1 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 4.5px;
+    font-size: 15px;
+    z-index: 9999;
+    text-decoration: none;
+  }
+  .imgWrap2 {
+    position: relative;
+    text-align: center;
+    display: flex;
+    white-space: nowrap;
+    margin-top: 5%;
+  }
+  .imgWrap2 .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 40px;
+    text-decoration: none;
+    z-index: 9999;
+  }
+  .imgWrap2 .centered1 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 4.5px;
+    font-size: 15px;
+    z-index: 9999;
+    text-decoration: none;
+  }
+  .imgWrap3 {
+    position: relative;
+    text-align: center;
+    display: flex;
+    white-space: nowrap;
+    margin-top: 5%;
+  }
+  .imgWrap3 .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 40px;
+    text-decoration: none;
+    z-index: 9999;
+  }
+  .imgWrap3 .centered1 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 4.5px;
+    font-size: 15px;
+    z-index: 9999;
+    text-decoration: none;
+  }
+
+  .homeCartoonSection {
+    height: 700px;
+    background-color: rgb(253, 253, 253);
+    /* margin-top: 165px; */
+    display: flex;
+    flex-direction: column;
+  }
+  .cartoonWrap {
+    position: relative;
+    text-align: center;
+    display: flex;
+  }
+  .cartoonWrap img {
+    border-radius: 50%;
+    background-image: linear-gradient(#5d020200, #5d02021c);
+    width: 202px;
+    height: 202px;
+  }
+
+  .cartoonText {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+  }
+  .cartoonWrap h1 {
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-left: 15%;
+    margin-right: 1%;
+  }
+  .cartoonWrap p {
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 1%;
+  }
+}
+
+@media screen and (min-width: 802px) {
+  body {
+    max-width: 1330px;
+    margin: auto;
+  }
+  .container {
+    max-width: 85%;
+    margin: 0 6.5% 0 8.5%;
+  }
+
+  .homeTitleContainer {
+    background-color: #e7816b;
+    height: 550px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    min-width: 1000px;
+  }
+
+  .homeText {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    font-family: "Jost", sans-serif;
+    text-align: left;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 60%;
+    margin-top: 3%;
+  }
+
+  .homeText h3 {
+    font-size: 32px;
+    color: white;
+    text-align: left;
+  }
+  .homeText h5 {
+    font-size: 15px;
+    text-align: left;
+    color: white;
+    letter-spacing: 1.5px;
+  }
+
+  .homeTitleContainer img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    min-height: 573px;
+    min-width: 284px;
+    top: -15%;
+    right: -13%;
+    overflow: hidden;
+  }
+  .circle {
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background-color: #d8725b;
+    position: absolute;
+    left: 120%;
+    top: -11%;
+  }
+
+  .homeButton {
+    justify-content: left;
+    display: flex;
+  }
+  .homeButton button {
+    padding: 15px;
+    background-color: #f1f3f5;
+    border: none;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 1.5px;
+    min-width: 152px;
+    font-size: 15px;
+  }
+  .homeThreeGrid {
+    margin-top: 160px;
+    font-family: "Jost", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 20px;
+    margin-bottom: 135px;
+    min-width: 1000px;
+
+    overflow: hidden;
+    grid-template-areas:
+      "imgWrap imgWrap2"
+      "imgWrap imgWrap3";
+  }
+
+  .homeThreeGrid img {
+    filter: brightness(40%);
+    border-radius: 10px;
+  }
+  .imgWrap {
+    grid-area: imgWrap;
+    position: relative;
+  }
+  .imgWrap img {
+    height: 95%;
+  }
+
+  .imgWrap .centered {
+    position: absolute;
+
+    top: 20%;
+    left: 25%;
+    font-size: 52px;
+    color: white;
+    text-decoration: none;
+    z-index: 9999;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .imgWrap .centered1 {
+    position: absolute;
+    top: 35%;
+    color: white;
+    left: 30%;
+    font-size: 30px;
+    z-index: 9999;
+    text-decoration: none;
+  }
+  .imgWrap2 {
+    grid-area: imgWrap2;
+    position: relative;
+  }
+
+  .imgWrap2 img {
+    width: 100%;
+    height: 90%;
+  }
+  .imgWrap2 .centered {
+    position: absolute;
+    text-decoration: none;
+    top: 10%;
+    left: 15%;
+    font-size: 52px;
+    color: white;
+
+    z-index: 9999;
+  }
+
+  .imgWrap2 .centered1 {
+    position: absolute;
+    top: 40%;
+    color: white;
+    left: 30%;
+    font-size: 30px;
+    z-index: 9999;
+  }
+
+  .imgWrap3 {
+    grid-area: imgWrap3;
+    position: relative;
+  }
+  .imgWrap3 img {
+    width: 100%;
+    height: 90%;
+  }
+  .imgWrap3 .centered {
+    position: absolute;
+    text-decoration: none;
+    top: 10%;
+    left: 10%;
+    font-size: 52px;
+    color: white;
+
+    z-index: 9999;
+  }
+
+  .imgWrap3 .centered1 {
+    position: absolute;
+    top: 40%;
+    color: white;
+    left: 30%;
+    font-size: 30px;
+    z-index: 9999;
+    text-decoration: none;
+  }
+
+  .homeCartoonSection {
+    height: 500px;
+    /* background-color: rgb(29, 5, 5); */
+    margin-top: -65px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .cartoonWrap {
+    position: relative;
+    text-align: center;
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+    /* overflow: hidden; */
+  }
+  .cartoonWrap img {
+    border-radius: 50%;
+    background-image: linear-gradient(#5d020200, #5d02021c);
+    width: 202px;
+    height: 202px;
+  }
+
+  .cartoonText {
+    position: absolute;
+    top: 40%;
+  }
+  .cartoonWrap h1 {
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+  .cartoonWrap p {
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    text-align: center;
+  }
+}
