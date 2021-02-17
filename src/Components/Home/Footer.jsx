@@ -3,20 +3,20 @@ import './footer.css'
 
 const Footer = () => {
     return (
-        <footer class="footerContainer">
+        <footer className="footerContainer">
     
-        <div class="orangeContainer">
+        <div className="orangeContainer">
           <h1>Let’s talk about your project</h1>
           <p>
             Ready to take it to the next level? Contact us today and find out how
             our expertise can help your business grow.
           </p>
-          <div class="footerButton">
+          <div className="footerButton">
             <button>Get in Touch</button>
           </div>
         </div>
-        <div class="blackContainer">
-          <div class="aboveUnderline">
+        <div className="blackContainer">
+          <div className="aboveUnderline">
           <h1>Designo</h1>
           
           <ul>
@@ -25,25 +25,25 @@ const Footer = () => {
             <li> Contact </li>
           </ul>
         </div>
-          <div class="underline"></div>
-          <div class="horizontalGrid">
-             <div class="address">
-          <p class="bold">Designo Central Office</p>
+          <div className="underline"></div>
+          <div className="horizontalGrid">
+             <div className="address">
+          <p className="bold">Designo Central Office</p>
           <p>3886 Wellington Street</p>
           <p>Toronto, Ontario M9C 3J5</p>
         </div>
-       <div class="address">
-          <p class="bold">Contact Us (Central Office)</p>
+       <div className="address">
+          <p className="bold">Contact Us (Central Office)</p>
           <p>P :
             +1 253-863-8967
           </p>
             <p>M : contact@designo.co</p>
           </div>
-          <div class="address">
-            <a href="https://en-gb.facebook.com" class="fa fa-facebook"> </a>
-            <a href="https://en-gb.facebook.com" class="fa fa-twitter"> </a>
-            <a href="https://en-gb.facebook.com" class="fa fa-instagram"> </a>
-            <a href="https://en-gb.facebook.com" class="fa fa-youtube"> </a>
+          <div className="address">
+            <a href="https://en-gb.facebook.com" className="fa fa-facebook"> </a>
+            <a href="https://en-gb.facebook.com" className="fa fa-twitter"> </a>
+            <a href="https://en-gb.facebook.com" className="fa fa-instagram"> </a>
+            <a href="https://en-gb.facebook.com" className="fa fa-youtube"> </a>
           </div>
         </div>
         </div>
