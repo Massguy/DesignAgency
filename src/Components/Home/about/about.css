@@ -1,0 +1,162 @@
+img {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.aboutUs {
+  background-color: #e7816b;
+  height: 700px;
+  width: 100%;
+
+  color: white;
+  font-family: "Jost", sans-serif;
+}
+.aboutUs h3 {
+  padding-top: 20%;
+}
+.aboutUs p {
+  margin: 0 7% 10% 7%;
+}
+
+.worldClassContainer {
+  background-color: #fdf3f0;
+
+  height: 900px;
+  font-family: "Jost", sans-serif;
+}
+
+.worldClassContainer h3 {
+  padding-top: 20%;
+  color: #e7816b;
+}
+
+.worldClassContainer p {
+  margin: 0 7% 10% 7%;
+  color: #333136;
+}
+
+.countriesContainer {
+  display: flex;
+  flex-direction: column;
+  font-family: "Jost", sans-serif;
+
+  height: 1200px;
+  margin: 25% 10% 0 10%;
+}
+
+.countriesContainer h3 {
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+.backgroundCountries {
+  margin-top: 15%;
+}
+.backgroundCountries img {
+  border-radius: 50%;
+  background-image: linear-gradient(#5d020200, #5d02021c);
+  width: 202px;
+  height: 202px;
+}
+
+.locationButton button {
+  padding: 15px;
+  background-color: #e7816b;
+  border: none;
+  border-radius: 7px;
+  text-transform: uppercase;
+  font-family: "Jost", sans-serif;
+  letter-spacing: 1.5px;
+  min-width: 152px;
+  font-size: 15px;
+  color: white;
+}
+.realDealContainer {
+  background-color: #fdf3f0;
+
+  margin-bottom: -70px;
+  height: 770px;
+  font-family: "Jost", sans-serif;
+}
+
+.realDealContainer h3 {
+  padding-top: 20%;
+  color: #e7816b;
+}
+
+.realDealContainer p {
+  margin: 0 7% 10% 7%;
+  color: #333136;
+}
+
+@media screen and (max-width: 801px) and (min-width: 520px) {
+  .container {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .aboutUs {
+    background-color: #e7816b;
+    height: 750px;
+    width: 100%;
+
+    color: white;
+    font-family: "Jost", sans-serif;
+    border-radius: 15px;
+    margin-bottom: 10%;
+  }
+
+  .aboutUs img {
+    height: 450px;
+    border-radius: 15px 15px 0 0;
+  }
+  .aboutUs h3 {
+    margin-top: -15%;
+    font-size: 32px;
+  }
+
+  .aboutUs p {
+    margin: 0 7% 10% 7%;
+  }
+  .worldClassContainer {
+    background-color: #fdf3f0;
+    border-radius: 15px;
+    height: 900px;
+    font-family: "Jost", sans-serif;
+  }
+
+  .worldClassContainer h3 {
+    padding-top: 20%;
+    color: #e7816b;
+    margin-top: -15%;
+    font-size: 32px;
+  }
+
+  .worldClassContainer img {
+    height: 450px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .worldClassContainer p {
+    margin: 0 7% 10% 7%;
+    color: #333136;
+  }
+  .realDealContainer {
+    background-color: #fdf3f0;
+    margin-top: 10%;
+    height: 900px;
+    font-family: "Jost", sans-serif;
+  }
+  .realDealContainer img {
+    height: 450px;
+  }
+
+  .realDealContainer h3 {
+    color: #e7816b;
+    margin-top: -15%;
+  }
+
+  .realDealContainer p {
+    margin: 0 7% 10% 7%;
+    color: #333136;
+  }
+}

@@ -21,7 +21,7 @@ class Navbar extends Component {
        <div className={this.state.clicked === true ? "navLinks":'navHide'}>
         <ul>
          
-          <Link to="/about" style={{textDecoration:"none",color:"white"}}> <li>OUR COMPANY</li></Link>
+          <Link to="/about" style={{textDecoration:"none",color:"white"}}> <li>ABOUT</li></Link>
           
           <li>LOCATIONS</li>
           <li>CONTACT</li>
