@@ -1,9 +1,21 @@
 import React from 'react'
 import Footer from './Footer'
 import './home.css'
-
+import homePhone from '../../assets/home/desktop/image-hero-phone.png'
+import webLarge from '../../assets/home/desktop/image-web-design-large.jpg'
+import webTablet from '../../assets/home/tablet/image-web-design.jpg'
+import webMobile from '../../assets/home/mobile/image-web-design.jpg'
+import appLarge from '../../assets/home/desktop/image-app-design.jpg'
+import appTablet from '../../assets/home/tablet/image-app-design.jpg'
+import appMobile from '../../assets/home/mobile/image-app-design.jpg'
+import graphicMobile from '../../assets/home/mobile/image-graphic-design.jpg'
+import graphicLarge from '../../assets/home/desktop/image-graphic-design.jpg'
+import graphicTablet from '../../assets/home/tablet/image-graphic-design.jpg'
+import passionateSvg from '../../assets/home/desktop/illustration-passionate.svg'
+import friendlySvg from '../../assets/home/desktop/illustration-friendly.svg'
+import resourcefulSvg from '../../assets/home/desktop/illustration-resourceful.svg'
 const Home = () => {
-    return (<div>
+    return (<>
         <div className="container">
         <section className="homeTitleContainer">
       
@@ -22,7 +34,7 @@ const Home = () => {
         </div>
       </div>
      
-      <img src="./assets/home/desktop/image-hero-phone.png" alt="HomePhone"/>
+      <img src={homePhone}alt="HomePhone"/>
         </section>
         <section className="homeThreeGrid">
       <div className="imgWrap">
@@ -30,10 +42,10 @@ const Home = () => {
         <p className="centered1">View Projects</p>
         <a href="/web-design">
           <picture>
-            <source media="(min-width: 801px)" srcSet="./assets/home/desktop/image-web-design-large.jpg" />
+            <source media="(min-width: 801px)" srcSet={webLarge} />
 
-            <source media="(min-width: 500px)" srcSet="./assets/home/tablet/image-web-design.jpg" />
-          <img src="./assets/home/mobile/image-web-design.jpg" alt="webDesign"/>
+            <source media="(min-width: 500px)" srcSet={webTablet} />
+          <img src={webMobile} alt="webDesign"/>
           </picture>
         </a>
       </div>
@@ -42,11 +54,11 @@ const Home = () => {
         <p className="centered1">View Projects</p>
         <a href="/graphic-design">
           <picture>
-            <source media="(min-width: 801px)" srcSet="./assets/home/desktop/image-app-design.jpg" />
+            <source media="(min-width: 801px)" srcSet={appLarge} />
 
-            <source media="(min-width:500px)" srcSet="./assets/home/tablet/image-app-design.jpg" />
+            <source media="(min-width:500px)" srcSet={appTablet} />
               
-              <img src="assets/home/mobile/image-graphic-design.jpg" alt="GraphicDesign"/>
+              <img src={appMobile} alt="GraphicDesign"/>
         </picture>
         </a>
       </div>
@@ -55,18 +67,18 @@ const Home = () => {
         <p className="centered1">View Projects</p>
         <a href="/app-design">
           <picture>
-            <source media="(min-width: 801px)" srcSet="./assets/home/desktop/image-graphic-design.jpg" />
+            <source media="(min-width: 801px)" srcSet={graphicLarge} />
 
-            <source media="(min-width: 500px)" srcSet="./assets/home/tablet/image-graphic-design.jpg" />
+            <source media="(min-width: 500px)" srcSet={graphicTablet} />
            
-          <img src="./assets/home/mobile/image-app-design.jpg" alt="appDesign"/>
+          <img src={graphicMobile} alt="appDesign"/>
         </picture>
         </a>
       </div>
         </section>
         <section className="homeCartoonSection">
       <div className="cartoonWrap">
-        <img src="assets/home/desktop/illustration-passionate.svg" alt="passionate"/>
+        <img src={passionateSvg} alt="passionate"/>
         <div className="cartoonText">
         <h1>Passionate</h1>
         <p>
@@ -77,7 +89,7 @@ const Home = () => {
       </div>
       </div>
       <div className="cartoonWrap">
-        <img src="assets/home/desktop/illustration-resourceful.svg" alt="resourceful" />
+        <img src={resourcefulSvg} alt="resourceful" />
         <div className="cartoonText">
         <h1>Resourceful</h1>
         <p>
@@ -88,7 +100,7 @@ const Home = () => {
       </div>
       </div>
       <div className="cartoonWrap">
-        <img src="assets/home/desktop/illustration-friendly.svg" alt="friendly"/>
+        <img src={friendlySvg} alt="friendly"/>
         <div className="cartoonText">
         <h1>Friendly</h1>
         <p>
@@ -101,7 +113,7 @@ const Home = () => {
     </section>
         </div>
         <Footer />
-    </div> );
+</> );
 }
  
 export default Home;

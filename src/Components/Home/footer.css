@@ -180,7 +180,7 @@
     color: #f1f3f5;
     font-family: "Jost", sans-serif;
     height: 350px;
-
+    width: 100%;
     overflow: hidden;
   }
   .aboveUnderline {
@@ -257,12 +257,14 @@
 @media screen and (min-width: 802px) {
   body {
     max-width: 1330px;
-    margin: auto;
   }
 
   .footerContainer {
     background: linear-gradient(to bottom, white 15%, #1d1c1e 0%);
     height: 20%;
+
+    margin: 0;
+    width: 100%;
   }
   .orangeContainer {
     height: 300px;
@@ -314,7 +316,7 @@
     color: #f1f3f5;
     font-family: "Jost", sans-serif;
     height: 350px;
-
+    width: 100%;
     overflow: hidden;
   }
   .aboveUnderline {

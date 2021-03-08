@@ -160,3 +160,217 @@ img {
     color: #333136;
   }
 }
+
+@media screen and (min-width: 802px) {
+  .container {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .aboutUs {
+    display: flex;
+    display: flex;
+    flex-direction: row-reverse;
+
+    margin-bottom: 10%;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 400px;
+
+    position: relative;
+  }
+  .aboutUs img {
+    width: 200%;
+  }
+  .leftHalf {
+    flex-grow: 2;
+    background-color: #e7816b;
+  }
+
+  .aboutUs h3 {
+    position: absolute;
+    left: 25%;
+    top: -40%;
+    font-size: 32px;
+  }
+  .aboutUs p {
+    position: absolute;
+    bottom: 1%;
+    left: 5%;
+    text-align: left;
+    margin-right: 40%;
+  }
+
+  .rightHalf {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1;
+  }
+
+  .worldClassContainer {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 10%;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 500px;
+    background-color: #fdf3f0;
+    position: relative;
+    width: 100%;
+  }
+  .worldClassContainer img {
+    width: 40%;
+    position: absolute;
+    left: 0;
+    height: 100%;
+  }
+
+  .worldClassContainer h3 {
+    position: absolute;
+    bottom: 410px;
+    right: 30%;
+    font-size: 32px;
+  }
+  .worldClassContainer p {
+    width: 100%;
+  }
+
+  .rightHalf1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1;
+
+    height: 400px;
+    position: absolute;
+    bottom: -15%;
+    right: 5%;
+    width: 50%;
+  }
+  .leftHalf1 {
+    flex-grow: 2;
+  }
+  .countriesContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    height: 400px;
+    margin-left: 0;
+    margin-top: -20px;
+    font-size: 0;
+    position: relative;
+  }
+  .countriesContainer img {
+    position: absolute;
+    top: 10%;
+  }
+
+  .locationButton button {
+    position: absolute;
+    bottom: 20%;
+    left: 2%;
+  }
+  .australiaBackground img {
+    border-radius: 50%;
+    background-image: linear-gradient(#5d020200, #5d02021c);
+    width: 202px;
+    height: 202px;
+    position: absolute;
+    left: 35%;
+  }
+  .australiaButton button {
+    position: absolute;
+    bottom: 20%;
+    left: 37%;
+    padding: 15px;
+    background-color: #e7816b;
+    border: none;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 1.5px;
+    min-width: 152px;
+    font-size: 15px;
+    color: white;
+  }
+  .ukBackground img {
+    border-radius: 50%;
+    background-image: linear-gradient(#5d020200, #5d02021c);
+    width: 202px;
+    height: 202px;
+    position: absolute;
+    left: 70%;
+  }
+  .ukButton button {
+    position: absolute;
+    bottom: 20%;
+    left: 72%;
+    padding: 15px;
+    background-color: #e7816b;
+    border: none;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 1.5px;
+    min-width: 152px;
+    font-size: 15px;
+    color: white;
+  }
+
+  .realDealContainer {
+    display: flex;
+    display: flex;
+    flex-direction: row-reverse;
+
+    margin-bottom: 10%;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 500px;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    overflow: hidden;
+
+    background-color: #fdf3f0;
+    position: relative;
+    width: 100%;
+  }
+  .realDealContainer img {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    background-color: #fdf3f0;
+  }
+  .realDealContainer h3 {
+    position: absolute;
+    bottom: 410px;
+    top: -70%;
+
+    right: 30%;
+    font-size: 32px;
+  }
+  .realDealContainer p {
+    width: 100%;
+  }
+  .leftHalf2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1;
+
+    height: 400px;
+    position: absolute;
+    bottom: -20%;
+    left: 60px;
+    width: 50%;
+  }
+
+  .rightHalf2 {
+    flex-grow: 2;
+  }
+}
